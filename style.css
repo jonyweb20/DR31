@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    width: 600px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    background-color: darksalmon;
+}
+h2, input, button{
+    width: 70%;
+    margin: 0.3em;
+    border-radius: 0.5em;
+}
+.invalid{
+    border: 1px solid red;
+}
+.susses{
+    border: 1px solid green;
+}
